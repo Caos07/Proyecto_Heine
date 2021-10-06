@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    border: 0;
+    /* background: url("img/total_bg.jpg");
+    background; */
+}
+.menu_container{
+    width:80%;
+    /* height: 1000px; */
+    margin: 20px auto;
+    /* border: solid black 1px; */
+}
+
+/* INICIO BUSCADOR */
+.menu_buscador{
+    /* background-color: #31251B; */
+    height: auto;
+}
+    /* INICIO BUSCADOR POR CATEGORIA */
+.menu_categories{
+    width: 250px;
+    height: 40px;
+    border: solid black 1px;
+    margin: 30px 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+    /* FIN BUSCADOR POR CATEGORIA */
+    /* INICIO BUSCADOR POR NOMBRE */
+.buscador_por_nombre{
+    display: inline-block;
+    margin: 0 50px;
+}
+.input_bebida{
+    width: 50%;
+    height:30px;
+    border: solid 1px #31251B;
+}
+    /* FIN BUSCADOR POR NOMBRE */
+/* FIN BUSCADOR */
+
+/* Inicio Contenido */
+.categorias{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.NombreProducto {
+    margin: 0;
+}
+.separador{
+    width: 95%;
+    margin: 30px auto 10px;
+    background-color: black;
+    margin-bottom: 0;
+}
+.nombre_categoria{
+    display: inline-block;
+    color:#31251B ;
+    padding: 5px 20px;
+    margin-left: 2.5%;
+}
+.ContenedorSoloProductos{
+    width: 95%;
+    margin: 0 auto;
+}
+.producto{
+    margin: 20px auto;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.detalles{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.imagen_Producto{
+    width: 100%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.detalles p{
+    font-weight: bold;
+    margin: 0;
+    display: inline-block;
+}
+.detalles button{
+    border: solid 1px #665649;
+    background: none;
+    right: 0;
+    margin-top: 5px;
+    cursor: pointer;
+
+}
+.detalles button:hover{
+    background-color:#544438;
+    color: white;
+}
+.detalles .calificacion_Producto{
+    color: rgb(237, 196, 32);
+}
+
+.filtro_Producto{
+    display: none;
+}
+
+.filtro_Categoria{
+    display: none;
+}
+/* Fin Contenido */
