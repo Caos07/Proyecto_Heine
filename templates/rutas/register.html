@@ -1,0 +1,37 @@
+{% include 'header.html' %}
+
+<main>
+    <!--Contenedor principal del register-->
+    <div class="container-register">
+        <h1>SIGN UP</h1>
+        <form action="">
+            <div class="contaienr-email">
+                <label for="email">Email address</label>
+                <!--Icono user-->
+                <span class="fa fa-user"></span>
+                <input type="email" class="email" required placeholder="Enter Email address">
+            </div>
+            <div class="container-password">
+                <label for="password">Password</label>
+                <!--Icono lock-->
+                <span class="fas fa-lock"></span>
+                <input type="password" class="password" required placeholder="Enter Password">
+                <!--Icono eye, tiene un name para el caso en el que no se pueda hacer la validacion con el nombre de la clase fa fa-eye igual estan las dos opciones-->
+                <span class="fa fa-eye" name="show"></span>
+                <!-- anexo codigo icono ojo con linea cruzada (para cuando hagan la validacion cambie el icono)<i class="far fa-eye-slash"></i>-->
+            </div>
+            <div class="container-registered">
+                <a href="#">Already have an account?</a>
+            </div>
+            <div class="container-policys">
+                <p>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <a href="#">privacy policy</a></p>
+            </div>
+            <div class="container-register">
+                <input class="button-register" type="submit" value="Register">
+            </div>
+
+        </form>
+    </div>
+</main>
+
+{% include 'footer.html' %}
